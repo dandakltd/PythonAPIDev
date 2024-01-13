@@ -67,6 +67,4 @@ def get_post(id: int): # making sure that the id is an integer which the user wi
 # anything wrong with the output i can modify the code accordingly and in this case i was able to
 # modify the string output to an integer to get the correct post.
 
-@app.put("/posts/{id}")
-def update_posts(posts)
 
